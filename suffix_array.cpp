@@ -25,8 +25,8 @@ void build_sa (char *s, int len)
 	for (int i = 0; i < len; ++i)
 	{
 		array[i].index = i;
-		array[i].rank1 = (s[i] - 'a');
-		array[i].rank2 = (i+1 < len) ? (s[i+1]-'a') : -1;
+		array[i].rank1 = (s[i] - '.');
+		array[i].rank2 = (i+1 < len) ? (s[i+1]-'.') : -1;
 	}
 	sort (array, array+len, comp);
 	int ind[len];
