@@ -1,4 +1,4 @@
-//Suffix Array o(nlognlogn))
+//Suffix Array O(nlognlogn))
 
 #include <cstdio>
 #include <cstring>
