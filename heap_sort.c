@@ -37,7 +37,7 @@ void swap(int *num1, int *num2)
 	*num2 = temp;
 }	
 
-void heap_insert(int *heap, int num, int cur_index)
+void Heap_insert(int *heap, int num, int cur_index)
 {
 	heap[cur_index] = num;
 	int parent = cur_index/2;
